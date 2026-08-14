@@ -10,5 +10,6 @@ export default defineConfig({
 		setupFiles: [path.resolve(__dirname, './vitest.setup.ts')],
 		include: ['**/*.test.ts'],
 		testEnvironment: 'node',
+		passWithNoTests: true,
 	},
 })

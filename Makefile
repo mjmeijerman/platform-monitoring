@@ -9,8 +9,8 @@ rebuild:
 	docker compose up -d
 	@echo "✅ Rebuild complete! API is available at http://localhost:3000"
 
-install:
-	docker compose run --rm api pnpm install
+pnpm-update:
+	docker compose run --rm api pnpm update
 
 build:
 	docker compose build
