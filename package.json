@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.0",
-    "@testcontainers/postgresql": "^10.16.0",
+    "@testcontainers/postgresql": "^12.1.0",
     "@testcontainers/redis": "^12.1.0",
     "turbo": "^2.8.0",
     "typescript": "^7.0.0",
