@@ -1,4 +1,4 @@
-export type Factory<T> = () => T;
+export type Factory<T> = () => T
 
 export interface Container {
 	register<T>(key: string, factory: Factory<T>): void

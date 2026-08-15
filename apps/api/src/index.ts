@@ -1,11 +1,11 @@
-import { Hono } from 'hono'
 import { serve } from '@hono/node-server'
+import { Hono } from 'hono'
 
 // Hono API Gateway, HTTP Inbound Adapters (Controllers, Routing)
 const app = new Hono()
 
-app.get('/', (c) => c.text('Hello from API'))
-app.get('/health', (c) => c.json({ status: 'ok', timestamp: new Date().toISOString() }))
+app.get('/', c => c.text('Hello from API'))
+app.get('/health', c => c.json({ status: 'ok', timestamp: new Date().toISOString() }))
 
 export default app
 

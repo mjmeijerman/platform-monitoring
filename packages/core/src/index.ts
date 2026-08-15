@@ -1,2 +1,2 @@
 // Domeinmodellen, Value Objects, Repository Interfaces (Ports), Use Cases
-export { createContainer, type Container, type Factory } from './di.js'
+export { type Container, createContainer, type Factory } from './di.js'
