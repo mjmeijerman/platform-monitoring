@@ -1,6 +1,7 @@
 {
   "name": "monorepo",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -13,7 +14,7 @@
     "@testcontainers/redis": "^10.16.0",
     "turbo": "^2.8.0",
     "typescript": "^7.0.0",
-    "vitest": "^3.0.0"
+    "vitest": "^4.1.0"
   },
   "packageManager": "pnpm@11.21.0"
 }
