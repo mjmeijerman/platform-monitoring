@@ -1,1 +1,5 @@
 .idea/
+.pnpm-store/
+node_modules/
+.turbo/
+dist/
