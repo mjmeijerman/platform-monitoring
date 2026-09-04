@@ -13,7 +13,7 @@
   "dependencies": {
     "@repo/core": "workspace:*",
     "@repo/db": "workspace:*",
-    "bullmq": "^6.1.0"
+    "bullmq": "^6.3.4"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",
